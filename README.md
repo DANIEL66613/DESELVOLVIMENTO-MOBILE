@@ -17,3 +17,31 @@ fun main(){
         de uma linha
         """
     print(text2)
+
+
+    -------------------------------------------------------------------------------------------
+
+    fun main(){
+
+    val valor = arrayListOf(2,4,6,8,10).sum()
+    val media = valor / 5
+
+    println("A media dos valor é $media")
+
+    if(media <= 5){
+        println("media é menor que 5")
+    }
+    if (media == 5){
+        println("media é 5")
+    }
+    if (media > 5){
+        println("media é maior que 5")
+    }
+    if (media > 100){
+        print("meia é muito grande")
+    }
+
+
+
+
+}
